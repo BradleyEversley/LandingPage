@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* ------------------------------ */
+/* NAVBAR */
+.nav-section {
+    background-color: #1F2937;
+    padding: 15px;
+    top: 0;
+}
+.navbar {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    width: 50%;
+    margin-left: 100px;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    margin-right: 15px;
+}
+/* ------------------------------ */
+/* HEADER */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header-left h1, .header-left h3 .header button{
+    color: white;
+    margin: 10px;
+    width: 50%; 
+}
+
+/*  
+.header-left button {
+    background-color: #3882F6;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    border: 1 #3882F6;
+}
+*/
+
+/* Header Button */
+.header-left button, .footer-right button{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+}
+
+.header-left button:disabled, .footer-right button:disabled {
+  cursor: default;
+}
+
+.header-left button:focus, .footer-right button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+
+.header-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-left h3 {
+    font-size: 15px;
+    color: #babbbc;
+}
+
+.header-left {
+    margin: 30px;
+    margin-bottom: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 100px;
+
+}
+
+.header-right {
+    margin: 30px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+/* ------------------------------ */
+/* BODY */
+
+.body-container h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.boxes-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.body-box {
+    border: 3px solid #405cf5;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    margin-right: 35px;
+}
+
+.box-text {
+    text-align: left;
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+/* ------------------------------ */
+/* QUOTE */
+
+.quote-container {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #39424e;
+    font-weight: 50;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+p.quote-author {
+    font-size: 20px;;
+    color: #000000;
+    font-weight: 700;
+    text-align: right;
+    margin-right: -300px;
+}
+
+
+/* ------------------------------ */
+/* FOOTER */
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 40%;
+    margin: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.blue-box h3 {
+     color: white;
+    }
+
+.blue-box p{
+    color: rgb(211, 210, 210);
+    }    
+
+.footer-right button {
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------ */
+/* INFO */
+
+.info {
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text p {
+    color: white;
+}
+
+
